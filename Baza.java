@@ -16,6 +16,8 @@ public class Baza
     //Array que guarda las cartas.
     private Carta[] baza;
     private int contadorBaza;
+    //objeto de tipo carta que guarda la carta que va ganando en la baza.
+    private Carta cartaQueVaGanando;
     
     /**
      *  Constructor que admita dos parametros. 
@@ -29,6 +31,7 @@ public class Baza
        jugadores = new Jugador[numeroDeJugadores];
        baza = new Carta[numeroDeJugadores];
        contadorBaza = 0;
+       cartaQueVaGanando = null;
     }
     
     /**
@@ -44,13 +47,27 @@ public class Baza
         {
             //guarda la carta tirada en el array
             baza[contadorBaza]=cartaTirada;
-            contadorBaza++;
+            
+            Carta cartaComparar = null;
+            if(cartaQueVaGanando == null)
+            {
+                cartaQueVaGanando= baza[contadorBaza];
+            }
+            else
+            {
+                cartaComparar = baza[contadorBaza];
+                if(cartaComparar.ganaA(cartaQueVaGanando,paloQuePintaCartaTirada))
+                {
+                    cartaQueVaGanando =cartaComparar;
+                }
+            }
         }
+        contadorBaza++;
     }
     
     /**
-     * Tenga un método llamado getPaloPrimeraCartaDeLaBaza sin parámetros que devuelva un entero que 
-     * representa el palo de la primera carta añadida a la baza o -1 en caso de que no se haya añadido aún ninguna carta.
+     * Método sin parámetros que devuelve un entero que representa el palo de la primera carta añadida a la baza o -1 
+     * en caso de que no se haya añadido aún ninguna carta.
      */
     public int getPaloPrimeraCartaDeLaBaza()
     {
@@ -60,5 +77,24 @@ public class Baza
             posicionCarta = baza[0].getPaloCarta();
         }
         return posicionCarta;
+    }
+    
+    /**
+     * Método sin parámetros que devuelve un objeto Carta.
+     * Este objeto carta es la carta que va ganando la baza conforme a las normas del julepe.
+     * En caso de que la baza este vacía este método devuelve null.
+     */
+    public Carta cartaQueVaGanandoLaBaza()
+    {   
+        return cartaQueVaGanando;
+    }
+    
+    /**
+     * Método que no admite parámetros y que devuelve el nombre del jugador que va ganando la baza en el momento actual.
+     */
+    public String nombreJugadorQueVaGanandoLaBaza()
+    {
+        String jugadorQueGana = "";
+        return jugadorQueGana;
     }
 }
