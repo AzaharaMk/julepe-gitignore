@@ -11,11 +11,11 @@ public class Baza
     private int x;
 
     /**
-     *  Tenga un constructor que admita dos parametros. 
+     *  Constructor que admita dos parametros. 
      *  El primero es un entero que indica el número de jugadores que van a tirar carta 
      *  y el segundo es otro entero que indica el palo que pinta.
      */
-    public Baza()
+    public Baza(int numeroJugadores,int paloQuePinta)
     {
         // initialise instance variables
         x = 0;
