@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=nombreJugador
+comment0.target=Jugador(java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Jugador\r\n
+comment1.params=nuevaCarta
+comment1.target=void\ recibirCarta(Carta)
+comment1.text=\r\n\ M\u00E9todo\ que\ permite\ un\ par\u00E1metro\ de\ tipo\ Carta\ y\ hace\ que\ el\ jugador\ reciba\ una\ carta\r\n
+comment2.params=
+comment2.target=void\ verCartasJugador()
+comment2.text=\r\n\ M\u00E9todo\ que\ imprime\ por\ pantalla\ las\ cartas\ del\ jugador,\ una\ por\ l\u00EDnea,\r\n\ y\ que\ funcione\ tenga\ las\ cartas\ que\ tenga.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNombre()
+comment3.text=\r\n\ M\u00E9todo\ que\ devuelve\ el\ nombre\ de\ los\ jugadores\r\n
+comment4.params=nombreCarta
+comment4.target=Carta\ tirarCarta(java.lang.String)
+comment4.text=\r\n\ M\u00E9todo\ que\ admite\ un\ par\u00E1metro\ String\ que\ indica\ el\ nombre\ de\ la\ carta\ a\ tirar.\ \r\n\ Muestra\ por\ pantalla\ el\ nombre\ del\ jugador\ que\ ha\ tirado\ la\ carta\ y\ la\ carta\ tirada.\ \r\n\ Devuelve\ la\ carta\ tirada.\ En\ caso\ de\ que\ el\ jugador\ no\ tenga\ cartas\ o\ de\ que\ el\ nombre\ especificado\ \r\n\ como\ par\u00E1metro\ no\ coincida\ con\ ninguna\ carta,\ devuelve\ null\r\n
+comment5.params=
+comment5.target=Carta\ tirarCartaAleatoria()
+comment5.text=\r\n\ M\u00E9todo\ que\ muestra\ por\ pantalla\ el\ nombre\ del\ jugador\ que\ ha\ tirado\ la\ carta\ y\ la\ carta\ tirada.\ \r\n\ Devuelve\ la\ carta\ tirada.\ En\ caso\ de\ que\ el\ jugador\ no\ tenga\ cartas,\ devuelve\ null.\r\n
+numComments=6

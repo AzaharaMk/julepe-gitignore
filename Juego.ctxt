@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=numeroJugadores\ nombreJugadorHumano
+comment0.target=Juego(int,\ java.lang.String)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Juego\r\n
+comment1.params=
+comment1.target=int\ repartir()
+comment1.text=\r\n\ M\u00E9todo\ llamado\ repartir\ que\ coge\ el\ mazo\ y\ da\ 5\ cartas\ a\ los\ jugadores\ creados.\ \r\n\ La\ entrega\ de\ cartas\ debe\ ser\ al\ estilo\ del\ reparto\ que\ se\ hace\ en\ la\ realidad,es\ decir,\r\n\ primero\ se\ baraja\ y\ luego\ se\ entrega\ una\ carta\ a\ cada\ jugador.\ \r\n\ La\ \u00FAltima\ carta\ entregada\ indica\ el\ palo\ que\ pinta,\ que\ debe\ registrarse\ de\ alguna\ foma.\r\n
+comment2.params=nombreJugador
+comment2.target=void\ hacerTrampasYVerCartasDeJugador(java.lang.String)
+comment2.text=\r\n\ M\u00E9todo\ que\ muestra\ las\ cartas\ del\ jugador\ metido\ por\ par\u00E1metro\r\n
+comment3.params=
+comment3.target=void\ verCartasJugadorHumano()
+comment3.text=\r\n\ M\u00E9todo\ que\ muestra\ las\ cartas\ que\ tiene\ el\ jugador\ Humano.\r\n
+numComments=4

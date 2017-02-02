@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Mazo()
+comment0.text=\r\n\ Constructor\ que\ se\ encargar\ de\ guardar\ las\ 40\ cartas\r\n\ excluyendo\ el\ 8\ y\ el\ 9\r\n
+comment1.params=
+comment1.target=void\ verCartasDelMazo()
+comment1.text=\r\n\ M\u00E9todo\ que\ muestra\ l\u00EDnea\ a\ l\u00EDnea\ todos\ los\ nombres\ de\ las\ cartas\r\n\ existentes\ en\ el\ mazo.\r\n
+comment2.params=
+comment2.target=void\ barajar()
+comment2.text=\r\n\ M\u00E9todo\ que\ no\ devuelve\ nada\ y\ consigue\ mezclar\ las\ cartas\ existentes\ en\ ese\ momento\ en\ el\ mazo\r\n
+comment3.params=
+comment3.target=Carta\ sacarCarta()
+comment3.text=\r\n\ M\u00E9todo\ que\ devuelve\ un\ objeto\ Carta.\r\n\ Devuelve\ la\ primera\ carta\ del\ mazo,\ eliminando\ esta\ del\ mazo.\r\n
+numComments=4

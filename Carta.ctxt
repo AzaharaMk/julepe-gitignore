@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=valorCarta\ paloCarta
+comment0.target=Carta(int,\ int)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Carta\r\n
+comment1.params=
+comment1.target=java.lang.String\ toString()
+comment1.text=\r\n\ Devuelve\ el\ valor\ de\ la\ carta\ y\ el\ palo\r\n
+comment2.params=
+comment2.target=int\ getValorCarta()
+comment3.params=
+comment3.target=int\ getPaloCarta()
+comment4.params=cartaAComparar\ paloQuePinta
+comment4.target=boolean\ ganaA(Carta,\ int)
+comment4.text=\r\n\ \ Exista\ un\ m\u00E9todo\ llamado\ ganaA\ que\ reciba\ un\ par\u00E1metro\ de\ tipo\ Carta\ y\ un\ par\u00E1metro\ de\ tipo\ entero\ que\ indica\ el\ palo\ que\ pinta.\ \r\n\ \ El\ m\u00E9todo\ devuelve\ true\ en\ caso\ de\ que\ la\ carta\ sea\ superior\ a\ la\ carta\ pasada\ como\ par\u00E1metro\ conforme\ a\ las\ reglas\ del\ tute\ \r\n\ \ y\ false\ en\ caso\ contrario.\r\n
+comment5.params=
+comment5.target=int\ getPosicionEscalaTute()
+comment5.text=\r\n\ M\u00E9todo\ que\ devuelva\ el\ valor\ de\ la\ carta\ conforme\ el\ tute\r\n
+numComments=6
